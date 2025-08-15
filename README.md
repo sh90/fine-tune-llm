@@ -10,20 +10,13 @@ QLoRA fine-tune with PEFT (LoRA rank 8)
 
 Prompt template + inference
 
-Quick sanity eval (few-shot prompts)
+Quick sanity eval 
 
-(Optional) Merge LoRA into base weights for export
-
-## Agenda
-0–10 min – Setup & explain LoRA/QLoRA + dataset format
-10–25 min – Create a tiny domain dataset (JSONL)
-25–75 min – Fine-tune with TRL + PEFT (1 epoch)
-75–95 min – Inference with a clean prompt template
-95–110 min – Quick eval on held-out prompts (3 domains)
-110–120 min – (Optional) Merge adapters & model card notes
 
 
 ## Topics
+What are open source LLMs? - https://huggingface.co/
+
 LoRA/PEFT: we’re training a small set of low-rank matrices; fast and cheap.
 
 QLoRA: quantize base model to 4-bit, keep optimizer in 16-bit, preserve quality.
